@@ -8,22 +8,26 @@ Data Extraction (phonepe_extraction.py) → Extracts raw JSON data, cleans it, a
 
 Dashboard (phonepe_dashboard_app.py) → Interactive Streamlit app that visualizes transactions, user growth, and insurance penetration across India.
 
-🚀 **Features**
-✅ Extracts multiple datasets: Transactions, Users, Insurance
+**Features**
 
-✅ Cleans & normalizes state, district, pincode data
+ Extracts multiple datasets: Transactions, Users, Insurance
 
-✅ Stores processed data in MySQL tables
+ Cleans & normalizes state, district, pincode data
 
-✅ Interactive dashboard with filters for Year, Quarter, State, District
+ Stores processed data in MySQL tables
 
-✅ Visualizations: Choropleth maps, bar charts, pie charts, KPIs, case studies
+ Interactive dashboard with filters for Year, Quarter, State, District
 
-✅ Business case study modules for insights
+ Visualizations: Choropleth maps, bar charts, pie charts, KPIs, case studies
+
+ Business case study modules for insights
 
 **Technical Part**
+
 **Python**
+
 Libraries:
+
 pandas
 mysql-connector-python
 plotly
@@ -32,23 +36,48 @@ requests, json
 Database: MySQL
 
 📂** Project Structure**
+
+
 PhonePe_Project/
+
+
+
  ├── phonepe_extraction.py      # Extracts JSON data → MySQL
+ 
  ├── phonepe_dashboard_app.py   # Streamlit Dashboard
+ 
  ├── requirements.txt           # Dependencies
+ 
  ├── README.md                  # Documentation
  
 📊 **Available Tables**
+
+
+
 aggregate_transaction
+
 aggregate_user
+
 map_transaction
+
 map_user
+
 top_transaction
+
 top_user
+
 aggregated_insurance
+
 map_insurance
+
 top_insurance 
+
+
+
 📌 **Dashboard Section**
+
+
+
 Home → Overview 
 Business Case Study → Transaction, User, and Insurance analysis
 Case Study Dashboard → Deep dive into
